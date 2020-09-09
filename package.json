@@ -1,0 +1,30 @@
+{
+  "name": "publish_npm_demo",
+  "version": "1.0.0",
+  "description": "publish npm demo",
+  "main": "dist/v-focus.umd.min.js",
+  "private": false,
+  "keywords": [
+    "publish",
+    "publish_npm",
+    "demo"
+  ],
+  "files": [
+    "dist/v-focus.umd.min",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "vue serve test.vue",
+    "build": "vue build ./src/index.js --target lib --name v-focus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cslnihao/publish_npm_demo.git"
+  },
+  "author": "cslnihao",
+  "bugs": {
+    "url": "https://github.com/cslnihao/publish_npm_demo/issues"
+  },
+  "homepage": "https://github.com/cslnihao/publish_npm_demo#readme"
+}
