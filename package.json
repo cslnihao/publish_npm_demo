@@ -1,6 +1,6 @@
 {
   "name": "publish_npm_demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "publish npm demo",
   "main": "dist/v-focus.umd.min.js",
   "private": false,
