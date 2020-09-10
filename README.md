@@ -1,8 +1,8 @@
 # publish_npm_demo
-publish_npm_demo
+
 ## 指令、组件上传npm的demo
 
-说明：dist是打包后的文件，src是自己的文件，test.vue是测试demo
+说明：dist是打包后的文件，src是自己的文件，test.vue是测试demo	<br/>
 [publish-npm-demo](https://github.com/cslnihao/publish_npm_demo)
 
 ### 1、将指令或组件定义为全局引入
@@ -28,7 +28,7 @@ export default {
 - 打包后的入口文件 "main": "dist/v-focus.umd.min.js"
 - 私有开放权限设置 "private": false
 - npm install后的文件集 "files": []
-- 打包命令配置 scipts： {}
+- 打包命令配置 scripts： {}
 
 ### 3、执行npm run build
 
@@ -37,8 +37,8 @@ export default {
 
 ### 4、发布至npm
 
-- 登录npm官网https://www.npmjs.com/，注册登录
-- cd到发布文件夹，比如publis_npm_demo
+- 登录npm官网，注册登录 https://www.npmjs.com/
+- cd到发布文件夹，比如 publis_npm_demo
 - npm login
 - npm publish
 
